@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "../node_modules/materialize-css/dist/css/materialize.css"; */
+
+@import "/variables.scss";
+
+h4 {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+.content-section.introduction {
+  background-image: linear-gradient(270deg, $corSecundaria, $corPrimaria);
+  color: #fff;
+}
+
+.content-section {
+    display: block;
+    border-bottom: 1px solid #dde3e6;
+    padding: 30px;
+    overflow: hidden;
+    background-color: #f5f7f8;
+}
